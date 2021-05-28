@@ -4,7 +4,7 @@
   "description": "Actividades de practica en webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:uno": "webpack"
   },
   "keywords": [
     "webpack"
