@@ -57,3 +57,7 @@ Build: <code>npm run build:siete</code>
 Ver resultado: <code>npm run server:siete</code>
 
 <small>NOTA: si bien con este comando se puede realizar modificaciones, las mismas estarán guardadas en el código fuente pero no se reflejarán en el build, debiendo realizarse con el comando anterior.</small>
+
+<hr>
+
+Licencia: MIT
