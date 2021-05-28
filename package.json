@@ -4,7 +4,8 @@
   "description": "Actividades de practica en webpack",
   "main": "index.js",
   "scripts": {
-    "build:uno": "webpack"
+    "build:uno": "webpack",
+    "build:dos": "webpack --config ./ej2configPersonalizada/webpack.config.js"
   },
   "keywords": [
     "webpack"
