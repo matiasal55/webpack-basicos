@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build:uno": "webpack",
-    "build:dos": "webpack --config ./ej2configPersonalizada/webpack.config.js"
+    "node:uno":"node ej1/dist/bundle.js",
+    "build:dos": "webpack --config ./ej2configPersonalizada/webpack.config.js",
+    "node:dos":"node ./ej2configPersonalizada/dist/bundle.js",
+    "build:tres": "webpack --config ./ej3ConfigMultiEntry/webpack.config.js",
+    "node:tres": "node ./ej3ConfigMultiEntry/dist/home.js && node ./ej3ConfigMultiEntry/dist/about.js"
   },
   "keywords": [
     "webpack"
