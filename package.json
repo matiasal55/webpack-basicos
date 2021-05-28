@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build:uno": "webpack",
-    "node:uno":"node ej1/dist/bundle.js",
+    "node:uno": "node ej1/dist/bundle.js",
     "build:dos": "webpack --config ./ej2configPersonalizada/webpack.config.js",
-    "node:dos":"node ./ej2configPersonalizada/dist/bundle.js",
+    "node:dos": "node ./ej2configPersonalizada/dist/bundle.js",
     "build:tres": "webpack --config ./ej3ConfigMultiEntry/webpack.config.js",
-    "node:tres": "node ./ej3ConfigMultiEntry/dist/home.js && node ./ej3ConfigMultiEntry/dist/about.js"
+    "node:tres": "node ./ej3ConfigMultiEntry/dist/home.js && node ./ej3ConfigMultiEntry/dist/about.js",
+    "build:cuatro": "webpack --config ./ej4loader/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -17,6 +18,8 @@
   "author": "Matias Alarcon",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   }
