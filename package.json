@@ -11,7 +11,9 @@
     "build:tres": "webpack --config ./ej3ConfigMultiEntry/webpack.config.js",
     "node:tres": "node ./ej3ConfigMultiEntry/dist/home.js && node ./ej3ConfigMultiEntry/dist/about.js",
     "build:cuatro": "webpack --config ./ej4loader/webpack.config.js",
+    "server:cuatro": "http-server ./ej4loader -o -p 9000",
     "build:cinco": "webpack --config ./ej5plugins/webpack.config.js",
+    "server:cinco": "http-server ./ej5plugins/dist -o -p 9000",
     "build:seis": "webpack --config ./ej6webpackserver/webpack.config.js",
     "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js",
     "build:siete": "webpack --config ./ej7hotmodule/webpack.config.js",
@@ -25,6 +27,7 @@
   "devDependencies": {
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
+    "http-server": "^0.12.3",
     "mini-css-extract-plugin": "^1.6.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
