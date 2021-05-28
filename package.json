@@ -12,7 +12,10 @@
     "node:tres": "node ./ej3ConfigMultiEntry/dist/home.js && node ./ej3ConfigMultiEntry/dist/about.js",
     "build:cuatro": "webpack --config ./ej4loader/webpack.config.js",
     "build:cinco": "webpack --config ./ej5plugins/webpack.config.js",
-    "build:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js"
+    "build:seis": "webpack --config ./ej6webpackserver/webpack.config.js",
+    "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js",
+    "build:siete": "webpack --config ./ej7hotmodule/webpack.config.js",
+    "server:siete": "webpack serve --config ./ej7hotmodule/webpack.config.js"
   },
   "keywords": [
     "webpack"
