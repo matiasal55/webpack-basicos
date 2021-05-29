@@ -66,11 +66,19 @@ Ver resultado: <code>npm run server:ocho</code>
 
 <hr>
 
-Ejercicio 8: Realizar una configuración para poder traspilar código JSX (React).
+Ejercicio 9: Realizar una configuración para poder traspilar código JSX (React).
 
 Build: <code>npm run build:nueve</code>
 
 Ver resultado: <code>npm run server:nueve</code>
+
+<hr>
+
+Ejercicio 10: Realizar una configuración para poder traspilar código JSX (React) y además poder trabajar con archivos y estilos de tipo Sass.
+
+Build: <code>npm run build:diez</code>
+
+Ver resultado: <code>npm run server:diez</code>
 
 <hr>
 

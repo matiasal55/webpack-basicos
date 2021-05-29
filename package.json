@@ -21,7 +21,9 @@
     "build:ocho": "webpack --config ./ej8async/webpack.config.js --watch",
     "server:ocho": "http-server ./ej8async/dist -o -p 9000",
     "build:nueve": "webpack --config ./ej9jsx/webpack.config.js --watch",
-    "server:nueve": "http-server ./ej9jsx/dist -o -p 9000"
+    "server:nueve": "http-server ./ej9jsx/dist -o -p 9000",
+    "build:diez": "webpack --config ./ej10files/webpack.config.js --watch",
+    "server:diez": "http-server ./ej10files/dist -o -p 9000"
   },
   "keywords": [
     "webpack"
@@ -36,10 +38,12 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
-    "html-webpack-root-plugin": "^0.10.0",
     "http-server": "^0.12.3",
     "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
     "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
