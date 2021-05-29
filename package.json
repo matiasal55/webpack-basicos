@@ -17,8 +17,9 @@
     "build:seis": "webpack --config ./ej6webpackserver/webpack.config.js",
     "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js",
     "build:siete": "webpack --config ./ej7babel/webpack.config.js --watch",
-    "server:siete": "http-server ./ej7babel/dist -o -p 9000"
-
+    "server:siete": "http-server ./ej7babel/dist -o -p 9000",
+    "build:ocho": "webpack --config ./ej8async/webpack.config.js --watch",
+    "server:ocho": "http-server ./ej8async/dist -o -p 9000"
   },
   "keywords": [
     "webpack"
@@ -27,6 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
@@ -37,5 +39,8 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0"
   }
 }

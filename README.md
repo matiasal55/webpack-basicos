@@ -58,4 +58,12 @@ Ver resultado: <code>npm run server:siete</code>
 
 <hr>
 
+Ejercicio 8: Realizar una configuración que permita trabajar con funciones asíncronas, ya que por defecto Babel, si bien traspila a JS, no reconoce a las funciones asíncronas y se produce un error.
+
+Build: <code>npm run build:ocho</code>
+
+Ver resultado: <code>npm run server:ocho</code>
+
+<hr>
+
 Licencia: MIT
