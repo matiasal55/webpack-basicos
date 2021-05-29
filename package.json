@@ -19,7 +19,9 @@
     "build:siete": "webpack --config ./ej7babel/webpack.config.js --watch",
     "server:siete": "http-server ./ej7babel/dist -o -p 9000",
     "build:ocho": "webpack --config ./ej8async/webpack.config.js --watch",
-    "server:ocho": "http-server ./ej8async/dist -o -p 9000"
+    "server:ocho": "http-server ./ej8async/dist -o -p 9000",
+    "build:nueve": "webpack --config ./ej9jsx/webpack.config.js --watch",
+    "server:nueve": "http-server ./ej9jsx/dist -o -p 9000"
   },
   "keywords": [
     "webpack"
@@ -30,9 +32,11 @@
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
+    "html-webpack-root-plugin": "^0.10.0",
     "http-server": "^0.12.3",
     "mini-css-extract-plugin": "^1.6.0",
     "style-loader": "^2.0.0",
@@ -41,6 +45,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.0"
+    "@babel/runtime": "^7.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
