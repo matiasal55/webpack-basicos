@@ -66,4 +66,12 @@ Ver resultado: <code>npm run server:ocho</code>
 
 <hr>
 
+Ejercicio 8: Realizar una configuración para poder traspilar código JSX (React).
+
+Build: <code>npm run build:nueve</code>
+
+Ver resultado: <code>npm run server:nueve</code>
+
+<hr>
+
 Licencia: MIT
