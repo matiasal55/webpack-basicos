@@ -15,7 +15,8 @@
     "build:cinco": "webpack --config ./ej5plugins/webpack.config.js",
     "server:cinco": "http-server ./ej5plugins/dist -o -p 9000",
     "build:seis": "webpack --config ./ej6webpackserver/webpack.config.js",
-    "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js"
+    "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js",
+    "build:siete": "webpack --config ./ej7babel/webpack.config.js --watch"
   },
   "keywords": [
     "webpack"
@@ -23,6 +24,9 @@
   "author": "Matias Alarcon",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "html-webpack-plugin": "^5.3.1",
     "http-server": "^0.12.3",
