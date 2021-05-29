@@ -16,7 +16,9 @@
     "server:cinco": "http-server ./ej5plugins/dist -o -p 9000",
     "build:seis": "webpack --config ./ej6webpackserver/webpack.config.js",
     "server:seis": "webpack serve --config ./ej6webpackserver/webpack.config.js",
-    "build:siete": "webpack --config ./ej7babel/webpack.config.js --watch"
+    "build:siete": "webpack --config ./ej7babel/webpack.config.js --watch",
+    "server:siete": "http-server ./ej7babel/dist -o -p 9000"
+
   },
   "keywords": [
     "webpack"

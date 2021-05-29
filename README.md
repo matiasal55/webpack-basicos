@@ -50,4 +50,12 @@ Ver resultado: <code>npm run server:seis</code>
 
 <hr>
 
+Ejercicio 7: Realizar una configuración para poder traspilar Javascript moderno utilizando Babel
+
+Build: <code>npm run build:siete</code>
+
+Ver resultado: <code>npm run server:siete</code>
+
+<hr>
+
 Licencia: MIT
